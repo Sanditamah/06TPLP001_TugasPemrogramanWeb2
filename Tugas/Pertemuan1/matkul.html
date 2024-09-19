@@ -1,0 +1,60 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Mata Kuliah</title>
+	</head>
+
+	<body>
+		<table border=0>
+		<form action="Hasil.php" method="POST">
+			<tr>
+				<td>Kode Mata Kuliah</td>
+				<td>:</td>
+				<td><input type=text name=MK></td>
+			</tr>
+			
+			<tr>
+				<td>Nama Mata Kuliah</td>
+				<td>:</td>
+				<td><input type=text name=NamaMK></td>
+			</tr>
+			
+			<tr>
+				<td>Dosen Mata Kuliah</td>
+				<td>:</td>
+				<td><input type=text name=DosenMK></td>
+			</tr>
+			
+			<tr>
+				<td>Kelas Mata Kuliah</td>
+				<td>:</td>
+				<td><input type=text name=KelasMK></td>
+			</tr>
+			
+			<tr>
+				<td>Hari Mata Kuliah</td>
+				<td>:</td>
+				<td>
+					<select name=Tgl>
+						<option name=Tgl>Hari
+						<option name=Tgl>Senin
+						<option name=Tgl>Selasa
+						<option name=Tgl>Rabu
+						<option name=Tgl>Kamis
+						<option name=Tgl>Jumat
+						<option name=Tgl>Sabtu
+					</select>
+				</td>	
+			</tr>
+			
+			<tr>
+				<td> </td>
+				<td> </td>
+				<td>
+					<input type="submit" name="submit" value="INPUT DATA">
+					<input type="reset" name="reset" value="BERSIH">
+				</td>
+			</tr>
+		</form>	
+	</body>
+</html>
